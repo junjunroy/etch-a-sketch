@@ -1,0 +1,86 @@
+body{
+    background-color: #E5E1DA;
+    font-family: "Happy Monkey", system-ui;
+}
+
+.cont-a,
+.cont-c {
+    flex-direction: column;
+}
+
+.cont-a,
+.cont-b,
+.cont-c,
+.percent_info,
+.percent_info>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos {
+    height: 40px;
+    width: 800px;
+    display: flex;
+    color: #1A1A19;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.infos>div>span {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.percent_info>span{
+    width: 110px;
+    margin-left: 5px;
+}
+
+.grid {
+    background-color: #FBF9F1;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    border: solid #1A1A19;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.pxl {
+    border: dotted palegoldenrod;
+    border-width: 1px;
+}
+
+.buttons {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ch-grid-size,
+.reset {
+    font-family: "Happy Monkey", system-ui;
+    font-size: medium;
+    border-radius: 12px;
+    border-color: E5E1DA;
+    background-color: #A6AEBF;
+    color: black;
+}
+
+.ch-grid-size {
+    width: 170px;
+    height: 40px;
+}
+
+.reset {
+    width: 80px;
+    height: 40px;
+}
